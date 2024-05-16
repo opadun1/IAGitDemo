@@ -1,9 +1,9 @@
 import pandas as pd
 
 data = {
-    'FirstName': ["Oleksii"],
-    'LastName': ["Padun"],
-    'Year': ['PhD year 2']    
+    'FirstName': ["Artem", "Syed","Oleksii"],
+    'LastName': ["Frenk", "Shazli", "Padun"],
+    'Year': ['Sophomore', 'Sophomore', 'PhD 2']    
 
 }
 df = pd.DataFrame(data)
