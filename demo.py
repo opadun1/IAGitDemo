@@ -1,10 +1,9 @@
 import pandas as pd
 
 data = {
-    'FirstName': ["falcao"],
-    'LastName': ["vaz"],
-    'Year': ['unc']    
-
+    'FirstName': ["Artem", "Syed", "falcao"],
+    'LastName': ["Frenk", "Shazli", "vaz"],
+    'Year': ['Sophomore', 'Sophomore', 'unc']    
 }
 df = pd.DataFrame(data)
 csv_name = "names.csv"
